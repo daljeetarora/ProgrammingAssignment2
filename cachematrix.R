@@ -6,7 +6,10 @@
 ## Testing commit
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  
+  cached_inv_mat <- NULL
+  
+  
 }
 
 
