@@ -1,14 +1,14 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+
 ## There are two funcions:
 ## makeCacheMatrix() caches the inverse of the given matrix. The inverse matrix is
 ## exposed via get, set .. functions
 
-## cacheSolve() computes the inverse of the given matrix
 
 ## Write a short comment describing this function
 
-## Testing commit
+## makeCacheMatrix takes a matrix as its argument and returns a 
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -29,6 +29,10 @@ makeCacheMatrix <- function(x = matrix()) {
     
 }
 
+
+## cacheSolve() computes the inverse of the given matrix returned by 
+## makeCacheMatrix(). In case the inverse has already been calculated, it fetches
+## the inverse from the cache
 
 ## Write a short comment describing this function
 
